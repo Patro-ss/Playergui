@@ -15,7 +15,7 @@ playlist = os.listdir()
 
 choice = 1
 app = Tk()
-icon = PhotoImage(file='/home/patro-ss/Documents/Python/index.ico')
+icon = PhotoImage(file='/home/patro-ss/Documents/Python/"Your .ico file"')
 app.tk.call('wm', 'iconphoto', app._w, icon)
 app.title("Player")
 app.geometry('800x600')
